@@ -1,4 +1,4 @@
-# Private Information Retrieval for Sensitive Medical Records
+# Private Information Retrieval of Medical Records
 ### A Comparative Study of SealPIR, XPIR, and CPIR on the SUPPORT2 Dataset
 
 ---
