@@ -1,7 +1,3 @@
-<p align="center">
-  <img width="476" height="249" src="https://user-images.githubusercontent.com/87842051/213029654-f513939d-4e7e-4baa-8a6a-5b74aa4484e8.png">
-</p>
-
 # CPIR on SUPPORT2: Private and Verifiable Medical Record Retrieval
 
 This project evaluates the **Committed Private Information Retrieval (CPIR)** library on the 
