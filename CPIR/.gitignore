@@ -1,0 +1,7 @@
+*.bin
+ComCKGS
+ComCKGS_support2
+*.o
+*.a
+*.out
+.DS_Store
