@@ -1,6 +1,6 @@
 # XPIR – Private Information Retrieval for Healthcare Data
 
-This repository accompanies the paper implementation of **XPIR** (eXtended Private Information Retrieval) applied to the [SUPPORT2 clinical dataset](https://archive.ics.uci.edu/dataset/880/support2) (9,105 patient records). It provides:
+This repository accompanies the implementation of **XPIR** (eXtended Private Information Retrieval) on Apple M-Chip System applied to the [SUPPORT2 clinical dataset](https://archive.ics.uci.edu/dataset/880/support2) (9,105 patient records). It provides:
 
 - A Colab notebook to construct the **patient** and **researcher** binary databases for XPIR
 - Python decoder scripts for interpreting retrieved records on the client side
