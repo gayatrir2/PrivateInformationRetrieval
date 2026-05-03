@@ -34,31 +34,6 @@ This is a strictly stronger guarantee than SealPIR and XPIR, which offer query p
 
 ---
 
-## Repository Structure
-
-CPIR/
-├── BE.c / BE.h # Bitar-El Rouayheb PIR scheme
-├── CKGS.c / CKGS.h # Chor-Kushilevitz-Goldreich-Sudan PIR scheme
-├── GenCKGS.c / GenCKGS.h # Generalised k-server CKGS scheme
-├── WY.c / WY.h # Woodruff-Yekhanin PIR scheme
-├── LMC.c / LMC.h # Linear Map Commitment layer
-├── database.c / database.h # Database loading and SUPPORT2 preprocessing
-├── verifyhash.c / verifyhash.h # Hash verification for tamper detection
-├── utils.c / utils.h # Shared utilities
-├── ComBEmain.c # Entry point: LM-BE committed PIR
-├── ComCKGSmain.c # Entry point: LM-CKGS (2-server) committed PIR
-├── ComGenCKGSmain.c # Entry point: LM-CKGS (k-server) committed PIR
-├── ComWYmain.c # Entry point: LM-WY committed PIR
-├── WYmain.c # Entry point: WY scheme standalone
-├── blst/ # BLS12-381 pairing library (blst)
-└── README.md
-
-> **Note**: The binary database file (`support2_cpir.bin`) is not included in this repository 
-> as it contains derived patient data. See the **Generating the Database** section below to 
-> reproduce it.
-
----
-
 ## Generating the Database
 
 The binary database is generated from the SUPPORT2 dataset hosted at the UCI Machine Learning 
