@@ -146,3 +146,21 @@ SUPPORT2 dataset into this format through the following steps:
 | 🔍 Auditor / Regulatory compliance | **CPIR** | LMC proofs cryptographically verify server response integrity; detects single-field tampering in 0.039ms; only option against malicious servers |
 
 ---
+
+Each library folder contains:
+- A **setup and implementation guide** covering all dependencies,
+  build steps, known errors and their resolutions, and how to launch
+  the server and client
+- **Code files** for the PIR client, server, and any library patches applied
+- **Database preparation scripts** specific to that library's input format
+  requirements
+
+---
+
+## Citation
+
+> Harrell, F. (1995). *SUPPORT2* [Dataset]. UCI Machine Learning Repository.
+> https://doi.org/10.3886/ICPSR02957.v2
+
+> The SUPPORT Principal Investigators. (1995). A controlled trial to improve
+> care for seriously ill hospitalized patients. *JAMA, 274*(20), 1591–1598.
