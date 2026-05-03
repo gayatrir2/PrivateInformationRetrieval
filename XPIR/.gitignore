@@ -1,0 +1,14 @@
+# XPIR binary database files (too large for GitHub)
+db/
+reception/
+xpir_db/
+xpir_research_db/
+*.zip
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
